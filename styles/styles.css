@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Duru+Sans&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{   
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62,5%;
+}
+body{
+   background-color: #E6C79C;
+}
+header{
+    background-color: #6FD08C;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+main{
+    margin: 15px;
+}
+h1{
+    color: #78586F;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-style: italic;
+}
+.menuNavegacion{
+     background-color: #6FD08C;
+}
+.menuNavegacion a{
+    color: #49676F;
+    text-decoration: none;
+    font-family: "Duru Sans", sans-serif;
+}
+h2{ 
+    color: #49676F;
+    font-family: "Open Sans", sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-style: italic;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.row p{
+    font-size: 16px;
+    text-align: justify;
+    font-style: italic;
+}
+.row img{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+    
+footer{
+    background-color: #CDDFA0;
+    padding: 20px;
+
+}
+.navFooter a{
+    color: #78586F;
+    text-decoration: none;
+}
+.informacionButton, .productosButton{
+    text-align: center;
+    margin: 40px 0;
+}
+.informacionButton p{
+    font-size: large;
+    font-family: "Duru Sans", sans-serif;
+    font-style: italic;
+    margin-top: 30px;
+}
+.productosButton p{
+    font-size: large;
+    font-family: "Duru Sans", sans-serif;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.seccionPlantas{
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.seccionPlantas h3{
+    color: #49676F;
+    font-family: "Duru Sans", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.seccionPlantas img {
+    width: 100%;
+    border-radius: 12px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seguridadFinal h3{
+    color: #49676F;
+    padding: 5px;
+    font-family: "Duru Sans", sans-serif;
+    font-style: italic;
+}
+
+.seguridadFinal p{
+    padding: 5px;
+    font-family: "Duru Sans", sans-serif;
+    font-style: italic;
+    font-size: larger;
+}
+.seguridadFinal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navFooter{
+    color: rgb(77, 33, 119);
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    font-family: "Duru Sans", sans-serif;
+}
+.navFooter li{
+    margin-inline: 10px;
+}
+.formFooter{
+    display: flex;
+    flex-direction: column;
+    font-family: "Duru Sans", sans-serif;
+}
+.formFooter div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Duru Sans", sans-serif;
+}
+.footerFlora h2{
+    color: #78586F;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-size:30px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #CDDFA0;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #CDDFA0;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.redesSociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.botonSuscripcion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tituloInfo h2{
+    color: #49676F;
+    font-family: "Open Sans", sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+}
+.consultasForm p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-style: italic;
+    font-size: 20px;
+}
+.consultasForm h2{
+    font-style: italic;
+}
+.botonEnviar{
+    margin-top: 20px;
+}
+.consultasForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.preguntasInfo h3{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+}   
+.preguntasInfo p{
+    font-style: italic;
+    font-size: 18px;
+     font-family: "Open Sans", sans-serif;
+}
+.informacionFinal p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-style: italic;
+
+}
+.productosP p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    font-style: italic;
+}
+.infusionesPag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.aceitesPag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.informacionPlantas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.preguntasF h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px;
+    font-size: 20px;
+    font-style: italic;
+
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 575.98px){
+    header{
+        flex-direction: column;
+    }
+    .navFooter{
+        flex-direction: column;
+        align-items: center;
+    }
+    .informacionPlantas{
+        flex-direction: column;
+        align-items: center;
+    }
+    .infusionesPag{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aceitesPag{
+        flex-direction: column;
+        align-items: center;
+    }
+} 
