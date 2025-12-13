@@ -300,3 +300,33 @@ footer{
         align-items: center;
     }
 } 
+/* Cards de productos */
+.card {
+  border: none;                     
+  border-radius: 1.25rem;           
+  background-color: #f6faf7;        
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Imagen de la card respeta el redondeo */
+.card-img-top {
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+}
+
+/* Hover sutil */
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+/* Botón comprar acorde a la paleta */
+.card .btn-primary {
+  background-color: #8ab69c;   /* verde herbal */
+  border: none;
+}
+
+.card .btn-primary:hover {
+  background-color: #9ac8af;
+}
