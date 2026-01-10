@@ -3,7 +3,6 @@
 
 @media (max-width: 575.98px) {
   header { flex-direction: column; }
-
   .navFooter,
   .informacionPlantas,
   .infusionesPag,
@@ -17,7 +16,6 @@ body{
 }
 
 header{
-    background-color: $color-primary;
     padding: $space-md;
     @include flex(row, space-between, flex-end);
     background: linear-gradient(to right,$color-primary,$color-secondary);
