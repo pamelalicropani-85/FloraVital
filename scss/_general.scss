@@ -1,0 +1,230 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+@media (max-width: 575.98px) {
+  header { flex-direction: column; }
+
+  .navFooter,
+  .informacionPlantas,
+  .infusionesPag,
+  .aceitesPag {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+body{
+    background-color: $color-secondary;
+}
+
+header{
+    background-color: $color-primary;
+    padding: $space-md;
+    @include flex(row, space-between, flex-end);
+    background: linear-gradient(to right,$color-primary,$color-secondary);
+}
+
+ul{
+    list-style: none;
+}
+
+nav{
+    @include flex(row, center, center);
+}
+main{
+    margin: $space-md;
+}
+
+h1{
+    color: $text-title;
+    @include font(40px,$font-one,italic);
+}
+
+.menuNavegacion a{
+  color: $text-subtitle;
+  @include font(18px, $font-two); 
+}
+
+
+h2{
+    color: $text-subtitle;
+    margin: $space-md;
+    @include font (30px, $font-one, italic);
+    @include flex(row,center,center);
+
+}
+.row{
+    @include flex( row,space-between,center);
+}
+.row p{
+    @include font(16px, $font-two, italic);
+}
+.row img{
+    display: block;
+}
+
+footer{
+  background-color: $color-tertiary;
+  padding: $space-sm;
+  @include flex(column, center, center);
+}
+
+.navFooter a{
+    color: $text-title;
+    text-decoration: none;
+}
+.informacionButton, .productosButton{
+    text-align: center;
+    margin: 40px 0;
+}
+.informacionButton p, .productosButton p{
+    margin-top: $space-md;
+    @include font (large, $font-two, italic);
+}
+.seccionPlantas{
+    margin: 10px 0;
+    padding: 10px;
+    @include flex(row, center, center);
+}
+.seccionPlantas h3{
+    color: $text-subtitle;
+    @include font(20px, $font-two, italic);
+    @include flex(column, center, center);
+}
+.seccionPlantas img{
+    width: 100%;
+    border-radius: 20px;
+}
+.seccionPlantas p{
+    @include flex(column, center, center);
+}
+.article{
+    @include flex(column,center ,center );
+}
+
+.seguridadFinal p{
+    padding: 5px;
+    @include font(large, $font-two, italic);
+}
+.seguridadFinal{
+    @include flex(column, center, center);
+}
+.seguridadFinal h3{
+    color: $text-subtitle;
+}
+.navFooter li{
+    margin-inline: 10px;
+    @include flex(column, center, center);
+}
+.formFooter{
+    @include flex(column, center, center);
+}
+.formFooter div{
+    @include flex(row, center,center);
+    font-family: $font-two;
+}
+.footerFlora h2{
+    color: $text-title;
+    @include font(30px, $font-one, italic);
+}
+
+.btn, .btn-link{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: $color-tertiary ;
+    color: black;
+    text-decoration: none;
+    border-radius: $radius-sm;
+    border: 1px solid $color-tertiary;
+
+}
+
+.redesSociales, .botonSuscripcion{
+    @include flex(row, center, center);
+}
+.tituloInfo h2{
+    color: $text-subtitle;
+    margin: 20px;
+    font-family: $font-one;
+    @include flex(row, center, center);
+    
+}
+.consultasForm p{
+    @include flex(row,center, center);
+    @include font(20px, $font-two, italic);
+}
+.botonEnviar{
+    margin-top: 20px;
+}
+.consultasForm{
+    @include flex(column, center, center);
+}
+.preguntasInfo h3{
+    @include flex(column, flex-start, flex-start);
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+}
+.preguntasInfo p{
+    @include font(18px, $font-one, italic);
+}
+.informacionFinal p{
+    @include flex(row, center,center);
+    margin: 20px;
+    padding: 20px;
+    @include font(20px, $font-one, italic);
+}
+.productosP p{
+    @include flex(row, center, center);
+    @include font(20px, $font-one, italic);
+}
+.infusionesPag, .aceitesPag{
+    @include flex(row,space-around,center);
+}
+.informacionPlantas{
+    @include flex(row,space-around,flex-start);
+    flex-wrap: wrap;
+    margin: 3rem auto;
+    padding: 0 1rem;
+    gap: 2rem;
+}
+.card-body{
+    @include flex(column, space-between,center);
+}
+
+.card{
+    border: none;
+    border-radius: $radius-lg;
+    background-color: $bg-card;
+    box-shadow:0 8px 20px #00000014;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card-img-top{
+    border-top-left-radius: $radius-lg;
+    border-top-right-radius: $radius-lg;
+}
+.card:hover{
+    transform: translateY(-4px);
+    box-shadow:0 12px 28px #0000001f; 
+}
+.card .btn-primary{
+    background-color: $color-tertiary;
+    border: none;
+}
+.preguntasF h3{
+    @include font(20px, $font-one, italic);
+    padding:50px ;
+    @include flex(row, center, center);
+}
+.btn,
+.btn-primary {
+  transition: 
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.btn:hover,
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}

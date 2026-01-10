@@ -1,0 +1,354 @@
+@media (max-width: 575.98px) {
+  header {
+    flex-direction: column;
+  }
+  .navFooter,
+  .informacionPlantas,
+  .infusionesPag,
+  .aceitesPag {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+body {
+  background-color: #E6C79C;
+}
+
+header {
+  background-color: #6FD08C;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  background: linear-gradient(to right, #6FD08C, #E6C79C);
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  margin: 1rem;
+}
+
+h1 {
+  color: #78586F;
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+}
+
+.menuNavegacion a {
+  color: #49676F;
+  font-size: 18px;
+  font-family: "Duru Sans", sans-serif;
+  font-style: normal;
+}
+
+h2 {
+  color: #49676F;
+  margin: 1rem;
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row p {
+  font-size: 16px;
+  font-family: "Duru Sans", sans-serif;
+  font-style: italic;
+}
+
+.row img {
+  display: block;
+}
+
+footer {
+  background-color: #CDDFA0;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navFooter a {
+  color: #78586F;
+  text-decoration: none;
+}
+
+.informacionButton, .productosButton {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.informacionButton p, .productosButton p {
+  margin-top: 1rem;
+  font-size: large;
+  font-family: "Duru Sans", sans-serif;
+  font-style: italic;
+}
+
+.seccionPlantas {
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.seccionPlantas h3 {
+  color: #49676F;
+  font-size: 20px;
+  font-family: "Duru Sans", sans-serif;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.seccionPlantas img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.seccionPlantas p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.seguridadFinal p {
+  padding: 5px;
+  font-size: large;
+  font-family: "Duru Sans", sans-serif;
+  font-style: italic;
+}
+
+.seguridadFinal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.seguridadFinal h3 {
+  color: #49676F;
+}
+
+.navFooter li {
+  margin-inline: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formFooter div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Duru Sans", sans-serif;
+}
+
+.footerFlora h2 {
+  color: #78586F;
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+}
+
+.btn, .btn-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #CDDFA0;
+  color: black;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  border: 1px solid #CDDFA0;
+}
+
+.redesSociales, .botonSuscripcion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tituloInfo h2 {
+  color: #49676F;
+  margin: 20px;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.consultasForm p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Duru Sans", sans-serif;
+  font-style: italic;
+}
+
+.botonEnviar {
+  margin-top: 20px;
+}
+
+.consultasForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.preguntasInfo h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 25px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.preguntasInfo p {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+}
+
+.informacionFinal p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+}
+
+.productosP p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+}
+
+.infusionesPag, .aceitesPag {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.informacionPlantas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  gap: 2rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  border: none;
+  border-radius: 1.25rem;
+  background-color: #f1e8d8;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.0784313725);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-img-top {
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1215686275);
+}
+
+.card .btn-primary {
+  background-color: #CDDFA0;
+  border: none;
+}
+
+.preguntasF h3 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn,
+.btn-primary {
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover,
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+/*# sourceMappingURL=main.css.map */
