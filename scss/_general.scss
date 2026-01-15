@@ -34,7 +34,8 @@ main{
 
 h1{
     color: $text-title;
-    @include font(40px,$font-one,italic);
+    @include font(35px,$font-one,italic);
+    @include flex(row, center, center);
 }
 
 .menuNavegacion a{
@@ -47,7 +48,7 @@ h2{
     color: $text-subtitle;
     margin: $space-md;
     @include font (30px, $font-one, italic);
-    @include flex(row,center,center);
+    @include flex(row,flex-start,flex-start);
 
 }
 .row{
@@ -225,4 +226,52 @@ footer{
 .btn-primary:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+.planta-b {
+  min-height: 120px;
+}
+
+.planta-card {
+  width: 300px;
+}
+.informacionPlantas {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+
+  
+  grid-template-columns: 1fr;
+}
+
+.card-planta {
+  width: 100%; 
+  max-width: 18rem; 
+  margin: 0 auto; 
+}
+
+
+@media (min-width: 576px) {
+  .informacionPlantas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-planta {
+    max-width: none; 
+    margin: 0;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .informacionPlantas {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.navbar .logo-flora {
+  font-family: "Duru Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #78586F;        /* ajustá a tu paleta */
+  letter-spacing: 0.05em;
+  text-decoration: none;
 }

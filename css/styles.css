@@ -30,8 +30,9 @@ main{
 h1{
     color: #78586F;
     font-family: "Open Sans", sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     font-style: italic;
+    justify-content: center;
 }
 .menuNavegacion{
      background-color: #6FD08C;
@@ -47,7 +48,7 @@ h2{
     margin: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     font-style: italic;
 }
 .row{
@@ -328,4 +329,19 @@ footer{
 .card .btn-primary {
   background-color: #8ab69c;   
   border: none;
+}
+.planta-b {
+  min-height: 120px;
+}
+
+.planta-card {
+  width: 300px;
+}
+.navbar .logo-flora {
+  font-family: "Duru Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #78586F;        /* ajustá a tu paleta */
+  letter-spacing: 0.05em;
+  text-decoration: none;
 }
